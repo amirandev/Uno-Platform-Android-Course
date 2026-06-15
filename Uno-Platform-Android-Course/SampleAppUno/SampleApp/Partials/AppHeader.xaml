@@ -1,0 +1,25 @@
+<UserControl x:Class="SampleApp.Partials.AppHeader"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+
+  <Border Background="{ThemeResource SystemAccentColor}"
+          Padding="16,12">
+    <StackPanel Orientation="Horizontal"
+                Spacing="10"
+                VerticalAlignment="Center">
+      <FontIcon Glyph="&#xE761;"
+                FontSize="28"
+                Foreground="White"
+                VerticalAlignment="Center" />
+      <StackPanel VerticalAlignment="Center">
+        <TextBlock Text="SampleApp"
+                   FontSize="20"
+                   FontWeight="SemiBold"
+                   Foreground="White" />
+        <TextBlock Text="Powered by Uno Platform"
+                   FontSize="11"
+                   Foreground="#CCFFFFFF" />
+      </StackPanel>
+    </StackPanel>
+  </Border>
+</UserControl>
